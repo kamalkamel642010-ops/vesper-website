@@ -1,0 +1,26 @@
+body {
+    background-color: #101010;
+    background-image:
+    repeating-linear-gradient(
+        45deg,
+        transparent 0px,
+        transparent 7px,
+        rgb(0, 0, 0) 9px,
+        transparent 12px
+    ),
+    repeating-linear-gradient(
+        135deg,
+        transparent 0px,
+        transparent 11px,
+        rgba(0, 0, 0, 0.338) 13px,
+        transparent 16px
+    );
+    color: #FAF8F1;
+    font-family: Georgia, serif;
+}
+img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 50px auto;
+}
